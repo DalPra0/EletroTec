@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monitoramento de Energia</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Helvetica Neue', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+            margin-top: 100px;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: row;
+            margin: 20px;
+            gap: 20px;
+        }
+        .button {
+            background-color: #f6be00;
+            color: #fff;
+            padding: 20px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .box {
+            color: #666;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Monitoramento de Energia</h1>
+    <div class="container">
+        <div>
+            <button class="button" id="tempoRealButton">
+                <a href="tempo_real.php" style="text-decoration: none; color: black;">
+                    Valores em Tempo Real
+                </a>
+            </button>
+            <div class="box">Observe os valores em tempo real que sua tomada esta gastando, tanto em R$ quanto em Watts</div>
+        </div>
+        <div>
+            <button class="button" id="graficoButton">
+                <a href="grafico.php" style="text-decoration: none; color: black;">
+                    Grafico Mensal
+                </a>
+            </button>
+            <div class="box">Veja a media de quanto voce gastou nos ultimos meses na sua casa</div>
+        </div>
+    </div>
+</body>
+</html>
