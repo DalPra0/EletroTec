@@ -1,1 +1,3 @@
 Essa é a pasta do projeto final da TECPUC, chamado EletroTec, coloco nessa pasta o codigo do arduino, o artigo e a documentação do nosso projeto. Muito obrigado!
+
+﻿Resumo. O projeto "Eletrotec" utiliza Arduino, leitores de corrente e tecnologias web para criar um sistema simples e acessível de monitoramento de energia. Ao acompanhar o consumo de aparelhos elétricos, os usuários podem identificar padrões, resultando em uma economia notável. A interface intuitiva do site torna o monitoramento fácil para todos. Este projeto visa enfrentar o desafio dos altos custos de energia, proporcionando uma solução prática para promover a eficiência energética em residências.
